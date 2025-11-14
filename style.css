@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@media screen and (min-device-width:300px) and (max-device-width: 650px) {
+    h1 {
+        display: none;
+    }
+
+    .question {
+        font-size: 10px;
+    }
+
+    .question-name {
+        font-size: 12px;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    .timer {
+        font-size: 14px;
+        margin-left: 10px;
+        color: rgb(145, 18, 60);
+        border-radius: 50px;
+    }
+
+};
+    
+
+header {
+    margin:30px;
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 50px;
+    color: #551a8b;
+    text-shadow: #b7d0eb 2px 2px; 
+    font-family: Rubik Scribble;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main {
+    background: linear-gradient(to bottom, #87c1ff, #e6abff);
+    width: 100%;
+    text-align: justify;
+    line-height: 1.4;
+    color:#551a8b;
+    font-size: 22px;
+    font-family: Onest;
+    padding-bottom: 20px;
+}
+
+main p {
+    padding: 50px;
+}
+
+.links {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.links a {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.links a:hover {
+    scale: 1.01;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.links a:active {
+    color: aqua;
+}
+
+footer {
+    text-align: center;
+    font-family: Onest;
+    font-size: 16px;
+    color: #551a8b;
+    padding: 20px;
+    height: 20%;
+}
+
+.test-main {
+    padding-top: 40px;
+}
+
+.home {
+    margin-left: 70px;
+    width: 70px;
+    padding: 5px;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 70px;
+}
+
+.block button, .block-result button {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #551a8b;
+    border-radius: 10px;
+    font-family: Onest;
+    color: #551a8b;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.question {
+    margin: -20px;
+    font-size: 18px;
+}
+
+.question-name {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.answers {
+   display: none;
+   gap: 15px;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.block-result {
+    text-align: center;
+}
