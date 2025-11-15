@@ -8,6 +8,7 @@
 
     .question {
         font-size: 10px;
+        padding: 10px 10px 30px 10px;
     }
 
     .question-name {
@@ -26,8 +27,15 @@
     }
 
     .block {
-        margin: 10px;
+        margin: 0px;
         padding: 5px;
+    }
+
+    .block button {
+        width: 100px;
+        font-size: 6px;
+        padding: 0px;
+        margin: 0px;
     }
 
 };
